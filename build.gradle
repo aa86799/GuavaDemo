@@ -23,5 +23,5 @@ task clean(type: Delete) {
 }
 
 ext {
-    guavaVersion = "21.0"
+    guavaVersion = '20.0'  //21.0 需要jdk1.8 且对android支持不好  以后的版本可能会出补丁
 }
